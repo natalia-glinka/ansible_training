@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
     config.vm.define "natalia_server" do |natalia_server|
-        natalia_server.vm.box = "alpine/alpine64" #Change to ubuntu/trusty64
+        natalia_server.vm.box = "ubuntu/trusty64"
         natalia_server.vm.network "private_network", :type => 'dhcp'
         natalia_server.vm.provider "virtualbox" do |vb|
             vb.name = "Natalia VM"
