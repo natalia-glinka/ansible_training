@@ -1,6 +1,6 @@
 # ansible_training
 
-This is a simple repository to practice very basics of Ansible. :)
+This is a simple repository to practice very basics of Ansible. :smile:
 
 The used materials will be as follows:
 
@@ -11,4 +11,3 @@ The used materials will be as follows:
 Feel free to use it and commit anything you find useful.
 
 **Nat**
-ss
