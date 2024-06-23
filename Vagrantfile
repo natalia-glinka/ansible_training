@@ -8,8 +8,6 @@ Vagrant.configure("2") do |config|
             vb.cpus = 2
             vb.customize ["modifyvm", :id, "--nic2", "hostonly", "--hostonlyadapter2", "vboxnet0"]
         end
-        natalia_server.vm.provision "shell", inline: <<-SHELL
-            cat /home/natalia/.ssh/id_ed25519.pub >> /home/vagrant/.ssh/authorized_keys
-        SHELL 
+        natalia_server.vm.provision "file", source: "/home/natalia/.ssh/id_ed25519.pub", destination: "/home/vagrant/.ssh/authorized_keys"
     end
 end
