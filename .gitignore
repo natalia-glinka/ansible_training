@@ -1,0 +1,11 @@
+.vagrant/machines/natalia_server/virtualbox/action_provision
+.vagrant/machines/natalia_server/virtualbox/action_set_name
+.vagrant/machines/natalia_server/virtualbox/box_meta
+.vagrant/machines/natalia_server/virtualbox/creator_uid
+.vagrant/machines/natalia_server/virtualbox/id
+ansible.cfg
+.vagrant/machines/natalia_server/virtualbox/index_uuid
+.vagrant/machines/natalia_server/virtualbox/private_key
+.vagrant/machines/natalia_server/virtualbox/synced_folders
+.vagrant/machines/natalia_server/virtualbox/vagrant_cwd
+.vagrant/rgloader/loader.rb
