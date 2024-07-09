@@ -1,0 +1,18 @@
+---
+# This playbook creates file in tmp location
+
+- name: Intro to Ansible Playbooks
+  hosts: all
+
+  tasks:
+  - name: Create file
+    ansible.builtin.file:
+      path: /tmp/natalia.conf
+      state: touch
+      mode: u=rw,g=r,o=r
+
+  - name: Add a line to a file
+    ansible.builtin.lineinfile:
+      path: /tmp/natalia.conf
+      line: "{{imie}}"
+      create: yes
