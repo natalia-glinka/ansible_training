@@ -1,6 +1,12 @@
 ---
 test:
+ungrouped:
   hosts:
     Natalia_VM:
       ansible_host: 192.168.56.9
+      ansible_user: vagrant
+grouped:
+  hosts:
+    Natalia_VM_2:
+      ansible_host: 192.168.56.10
       ansible_user: vagrant
