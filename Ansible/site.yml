@@ -2,7 +2,7 @@
 # This playbook creates file in tmp location
 
 - name: Intro to Ansible Playbooks
-  hosts: all
+  hosts: Natalia_VM_2
 
   tasks:
   - name: Create file
